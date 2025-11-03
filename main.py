@@ -30,4 +30,4 @@ def count_char_in_text(text:str, enter_char: str)  -> int :
 
 #func  that unique united dicts
 def united_dicts(dict1:dict,dict2:dict) -> dict:
-    return dict1.update(dict2)
+    return dict1 | dict2
