@@ -38,8 +38,8 @@ git push origin main
 налаштування SSH-зв’язку, роботи з комітами та гілками(створення, та перемикання між ними), 
 а також для демонстрації базових навичок роботи з Git та GitHub.
 
-![Скріншот комітів](screenshots/networks.png)
-![](screenshots/commits.png)
+![Скріншот графіку](screenshots/networks.png)
+![Скріншот коммітів](screenshots/commits.png)
 
 ## Автор
 
