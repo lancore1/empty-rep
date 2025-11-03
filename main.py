@@ -3,9 +3,17 @@ list1 = [x ** 2 for x in range(1,11)]
 
 print(list1)
 
+
 #func of sum
 def sum(a ,b):
     return a + b
+
+
 #func of union set
 def union_set(set1:set,set2:set) -> set:
     return set1.union(set2)
+
+
+#func of unique list
+def unique_list(list1:list) -> list:
+    return list(set(list1))
