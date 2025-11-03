@@ -19,10 +19,15 @@ def unique_list(list1:list) -> list:
     return list(set(list1))
 
 
-#func function that counts letters
+#func  that counts letters
 def count_char_in_text(text:str, enter_char: str)  -> int :
     counter = 0
     for char in text:
         if char == enter_char:
             counter += 1
     return counter
+
+
+#func  that unique united dicts
+def united_dicts(dict1:dict,dict2:dict) -> dict:
+    return dict1.update(dict2)
