@@ -26,17 +26,17 @@
 git@github.com:lancore1/empty-rep.git
 ```
 2. Перейдіть у папку проєкту: 
-cd empty-rep
+- cd empty-rep
 3. Перевірте наявність всіх гілок та актуалізуйте main: 
-git checkout main
-git pull origin main
+- git checkout main
+- git pull origin main
 4. Створіть нову гілку для фічі/вправи:
-git checkout -b feature/add-test-file
+- git checkout -b feature/add-test-file
 4. Вносьте зміни, додавайте файли та робіть коміти:
-git add .
-git commit -m "опис змін"
+- git add .
+- git commit -m "опис змін"
 5. Відправляйте зміни на GitHub:
-git push origin feature/add-test-file
+- git push origin feature/add-test-file
 6. На GitHub створіть Pull Request з feature/add-test-file в main.
 Перевірте зміни і виконайте Merge (через сайт) або якщо маєте права - зробіть squash/merge.
 7. Поверніться на main і підтягніть оновлення:  
@@ -45,16 +45,16 @@ git push origin feature/add-test-file
 
 1. На сторінці репозиторію натисніть Fork (створиться копія у вашому профілі).
 2. Клонуйте ваш fork:
-git clone git@github.com:<ваш_логін>/empty-rep.git
-cd empty-rep
+- git clone git@github.com:<ваш_логін>/empty-rep.git
+- cd empty-rep
 3. Cтворіть гілку, зробіть зміни, запуште
-git checkout -b feature/my-change
-git add .
-git commit -m "my change — короткий опис"
-git push origin feature/my-change
+- git checkout -b feature/my-change
+- git add .
+- git commit -m "my change — короткий опис"
+- git push origin feature/my-change
 4. На GitHub із вашого форка створіть Pull Request до lancore1/empty-rep 
 (feature/my-change в main).
-5. Автор/власник репозиторію переглядає PR і вирішує — мерджити чи ні.
+5. Потім Автор репозиторію переглядає Pull Request і вирішує - мерджити чи ні.
 
 ## Призначення репозиторію
 
